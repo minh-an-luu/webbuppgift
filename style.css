@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #242424;
+    box-sizing: border-box;
+}
+li, a, button{
+    font-family: "Mukta", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logga{
+    cursor: pointer;
+    margin-right: auto;
+    width: 120px;
+    height: 120px;
+}
+.nav{
+    list-style: none;
+}
+.nav li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav li a {
+    transition: all 0.5s ease 0s;
+}
+.nav li a:hover{
+    transition: all 0.5s ease 0s;
+    color: #DC493A;
+
+}
+button{
+    margin-left: 15px;
+    padding: 9px 25px;
+    background-color: rgba(220, 73, 58, 1);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    text-align: center;
+}
+button:hover{
+    background-color: rgba(220, 73, 58, 0);
+}
