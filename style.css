@@ -19,6 +19,12 @@ header{
     align-items: center;
     padding: 30px 5%;
 }
+.bakgrund{
+    background-image: url(bilder/neonbil.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .logga{
     cursor: pointer;
     margin-right: auto;
