@@ -1,8 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    
-    
-}
 
+
+html,body{
+    font-family: 'Mukta';
+    color: black;
+}
+.navbar{
+    padding: .1rem;
+}
+.navbar-nav li{
+    padding-right: 30px;
+}
+.nav-link{
+    font-size: 1.5em ;
+}
+.carousel-caption {
+ position: absolute; 
+ top: 50%;
+ bottom: 50%; 
+}
+.btn-primary{
+    background-color: orangered;
+    border: 1px solid white;
+}
+.btn-primary:hover{
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+.första{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+.padding{
+    padding-top: 60px;
+}
