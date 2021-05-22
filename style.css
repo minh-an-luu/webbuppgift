@@ -4,6 +4,49 @@
 html,body{
     font-family: 'Mukta';
     color: black;
+    text-decoration: none;
+}
+
+@media (max-width:750px){
+    .carousel-caption {
+        
+        top: 40%;
+        bottom: 60%; 
+       }
+       .carousel-caption h1 {
+        font-size: 350%;
+       }
+       .carousel-caption h3{
+        font-size: 150%;
+       }
+       .carousel-caption .btn {
+        font-size: 90%;
+        padding: 9px 13px;
+       }
+       .display-4{
+           font-size: 200%;
+       }
+}
+@media (max-width:550px){
+    .carousel-caption {
+        
+        top: 40%;
+        bottom: 60%; 
+       }
+       .carousel-caption h1 {
+        font-size: 350%;
+       }
+       .carousel-caption h3{
+        font-size: 150%;
+       }
+       .carousel-caption .btn {
+        font-size: 90%;
+        padding: 9px 13px;
+       }
+       .carousel-indicators{
+           display: none;
+       }
+    
 }
 .navbar{
     padding: .1rem;
@@ -15,13 +58,14 @@ html,body{
     font-size: 1.5em ;
 }
 .carousel-caption {
- position: absolute; 
+ 
  top: 50%;
  bottom: 50%; 
 }
 .btn-primary{
     background-color: orangered;
     border: 1px solid white;
+ 
 }
 .btn-primary:hover{
     background-color: orangered;
@@ -34,4 +78,17 @@ html,body{
 }
 .padding{
     padding-top: 60px;
+}
+footer{
+    background-color: rgb(68, 68, 68);
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
+.border
+{
+    border-top: 1px solid whitesmoke;
+    width: 100%;
+    margin-top: 10px;
+   
 }
