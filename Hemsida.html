@@ -10,6 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
     </head>
 <body>
    
@@ -27,15 +28,16 @@
             <a class="nav-link" aria-current="page" href="#">Hem</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#OmOss">Om Oss</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#stats">Statistik</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Sida</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#OmOss">Om Oss</a>
+          </li>
         </ul>
+        
       </div>
       
   </div>
@@ -62,15 +64,13 @@
       <div class="carousel-item">
         <img src="./bilder/bakgrund3.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
+          
         </div>
       </div>
       <div class="carousel-item">
         <img src="./bilder/bakgrund4.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+         
         </div>
       </div>
     </div>
@@ -102,15 +102,100 @@
   <div class="container-fluid" id="stats">
     <canvas id="myChart"></canvas>
   </div>
-  <hr class="my-5"> 
-  <div class="container-fluid padding" >
+  <hr class="my-5">
+  <div class="container-fluid col-12">
+  <div class="shopping-cart">
+    
+    <div >
+      Bil Marknad
+    </div>
+
+    
+    <div class="vara">
+      <div class="bild">
+        <img src="./bilder/bil.png" alt="" />
+      </div>
+
+      <div class="förklara">
+        <span>Tesla model X</span>
+        <span>Greta Thunberg's drömbil</span>
+        <span>Röd</span>
+      </div>
+
+      <div class="plus-minus">
+        <button class="plus-btn knapp" type="button" name="button">
+          <img src="./bilder/plus.svg" alt="" />
+        </button>
+        <input type="text" name="name" value="1">
+        <button class="minus-btn knapp" type="button" name="button">
+          <img src="./bilder/minus.svg" alt="" />
+        </button>
+      </div>
+
+      <div class="pris">99 023KR</div>   
+     </div>
+
+  
+    <div class="vara">
+      <div class="bild">
+        <img src="./bilder/bil.png" alt="" />
+      </div>
+
+      <div class="förklara">
+        <span>Volvo v70</span>
+        <span>Svärmors drömmen</span>
+        <span>Vit</span>
+      </div>
+
+      <div class="plus-minus">
+        <button class="plus-btn knapp" type="button" name="button">
+          <img src="./bilder/plus.svg" alt="" />
+        </button>
+        <input type="text" name="name" value="1">
+        <button class="minus-btn knapp" type="button" name="button">
+          <img src="./bilder/minus.svg" alt="" />
+        </button>
+      </div>
+
+
+      <div class="pris">45 000KR</div>    
+    </div>
+
+   
+    <div class="vara">
+     <div class="bild">
+      <img src="./bilder/bil.png" alt="" />
+    </div>
+
+      <div class="förklara">
+        <span>Mustang gx10</span>
+        <span>Gjord för svensson</span>
+        <span>Gul</span>
+      </div>
+
+      <div class="plus-minus">
+        <button class="plus-btn knapp" type="button" name="button">
+          <img src="./bilder/plus.svg" alt="" />
+        </button>
+        <input type="text" name="name" value="1">
+        <button class="minus-btn knapp" type="button" name="button">
+          <img src="./bilder/minus.svg" alt="" />
+        </button>
+      </div>
+
+      <div class="pris">30 000KR</div>
+    </div>
+  </div>
+  </div>
+
+  <div class="container-fluid padding"id="OmOss" >
     <div class="row text-center">
       <div class="col-12">
         <h1 class="display-2">Om Oss</h1>
       </div>
     </div>
   </div>
-  <div class="continer-fluid padding"id="OmOss">
+  <div class="continer-fluid padding">
     <div class="row padding">
       <div class="col-md-4">
         <div class="card">
