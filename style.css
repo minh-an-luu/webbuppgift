@@ -195,6 +195,24 @@ footer{
     color: #43484D;
     font-weight: 300;
   }
+  .summabtn{
+    margin-top: 1%;
+    text-align: center;
+    font-size: 17 px;
+    color: #43484D;
+    font-weight: 500;
+    width: 10%;
+    height: 40%;
+    background-color: #E1E8EE;
+    border-radius: 6px;
+    border: none;
+  }
+  .summaberakning{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
   
 
   
