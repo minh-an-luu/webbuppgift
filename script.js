@@ -122,5 +122,16 @@ $('.plus-btn').on('click', function(e) {
   $input.val(value);
 });
 
+function sumCalc() {
+ var teslapris = document.getElementById("tesla").value;
+ teslapris = teslapris * parseInt(99023);
+ var volvopris = document.getElementById("volvo").value;
+ volvopris = volvopris * parseInt(45000);
+ var mustangpris = document.getElementById("mustang").value;
+ mustangpris = mustangpris * parseInt(30000);
+ var total=teslapris+volvopris+mustangpris+" KR";
+ document.getElementById('summa').innerHTML = total;
+ console.log(teslapris);
+}
 
 
